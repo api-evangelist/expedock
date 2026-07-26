@@ -1,0 +1,12 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.expedock.com/security
+url: https://www.expedock.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://www.expedock.com/security
+  keywords:
+  - soc 2
+  - soc2

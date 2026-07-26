@@ -1,7 +1,16 @@
 aid: expedock
 name: Expedock
-description: Expedock is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Expedock is a digital business process outsourcing (BPO) and document-automation
+  company for the logistics and freight-forwarding industry. It pairs AI-powered document
+  automation products (FCL/LCL accounts-payable automation, monthly statement automation,
+  and commercial invoice and packing-list data entry) with tech-enabled remote teams
+  supported by operations managers and QA specialists. Freight forwarders, 3PLs, and
+  supply-chain operators use Expedock to digitize shipping documents, automate back-office
+  workflows, and scale operations without scaling headcount. Customers include Maersk,
+  Gebrueder Weiss, and large shippers such as Nike, Adidas, Coca-Cola, and Shell.
+  Expedock is backed by Insight Partners. The company operates a Digital BPO offering
+  and document-automation product suite; it does not currently publish a public developer
+  API, SDKs, or API reference documentation.
 url: https://raw.githubusercontent.com/api-evangelist/expedock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.expedock.com/
 tags:
 - Company
+- Logistics
+- Freight Forwarding
+- Supply Chain
+- Document Automation
+- Business Process Outsourcing
+- Automation
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.expedock.com/
+- type: Blog
+  url: https://www.expedock.com/blog
+- type: Support
+  url: https://www.expedock.com/faq
+- type: PrivacyPolicy
+  url: https://www.expedock.com/privacy-policy
+- type: TrustCenter
+  url: security/expedock-trust-center.yml
+- type: Compliance
+  url: https://www.expedock.com/security
+- type: Security
+  url: https://www.expedock.com/security
+- type: VulnerabilityDisclosure
+  url: security/expedock-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/expedock-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
